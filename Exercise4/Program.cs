@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercise4
 {
-   
+   class Node
+    {
+
+    }
         static void Main(string[] args)
         {
         }
