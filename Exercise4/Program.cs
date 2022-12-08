@@ -23,6 +23,10 @@ namespace Exercise4
         {
             top = null;
         }
+        bool empty()
+        {
+            
+        }
 
         static void Main(string[] args)
         {
