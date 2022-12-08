@@ -44,6 +44,21 @@ namespace Exercise4
             Console.WriteLine("\nThe pooped element is: " + top.info);
             top = top.next;
         }
+        public void display()
+        {
+            Node tmp;
+            if (empty()) 
+                Console.WriteLine("\nStack Empty");
+            else
+            {
+                
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+                Console.WriteLine();
+            }
+        }
         static void Main(string[] args)
         {
         }
