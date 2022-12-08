@@ -25,7 +25,10 @@ namespace Exercise4
         }
         bool empty()
         {
-            
+            if (top == null)
+                return (true);
+            else
+                return (false);
         }
 
         static void Main(string[] args)
