@@ -19,7 +19,10 @@ namespace Exercise4
     class Stacks
     {
         Node top;
-
+        public Stacks()
+        {
+            top = null;
+        }
 
         static void Main(string[] args)
         {
